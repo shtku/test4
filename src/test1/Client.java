@@ -7,7 +7,7 @@ import java.net.*;
 
 public class Client {
 	public static void main(String[] args) {
-		//没有用的
+		//没有用的rtrtrttr
 		String msg = "Client Date";
 		try{
 			Socket socket = new Socket("127.0.0.1",8080);
