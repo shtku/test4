@@ -21,7 +21,7 @@ public class NIOServer {
 			Handler handler = new Handler(1024);
 			while(true){
 				if(selector.select(3000)==0){
-					System.out.println("等待请求超时.....我的故事中的窃电的");
+					System.out.println("等待请求超时.....我的故事中的窃电的，第三方的身份第三方史蒂夫 第三方 ");
 					continue;
 				}
 				System.out.println("处理请求.....");
